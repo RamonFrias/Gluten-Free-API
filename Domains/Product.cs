@@ -7,10 +7,6 @@ namespace GlutenFreeApi.Domains
     [Table("Products")]
     public class Product
     {
-        public Product() 
-        {
-            ProductPlaces = new Collection<Place>();
-        }
         [Key]
         public int Id { get; set; }
         [Required]
@@ -31,7 +27,8 @@ namespace GlutenFreeApi.Domains
         public DateTime ExpirationDate { get; set; }
         [Required]
         public DateTime ProductionDate { get; set; }
-        public ICollection<Place>? ProductPlaces { get; set; }
+        public int PlaceId { get; set; }
+        public Place Place { get; set; }
 
     }
 }
