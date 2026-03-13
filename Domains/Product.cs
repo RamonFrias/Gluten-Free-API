@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace GlutenFreeApi.Domains
 {
@@ -28,7 +29,5 @@ namespace GlutenFreeApi.Domains
         [Required]
         public DateTime ProductionDate { get; set; }
         public int PlaceId { get; set; }
-        public Place Place { get; set; }
-
     }
 }

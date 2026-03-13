@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace GlutenFreeApi.Domains
 {
@@ -28,6 +29,7 @@ namespace GlutenFreeApi.Domains
         [Required]
         [StringLength(8)]
         public string? PlacePostalCode { get; set; }
+        [JsonIgnore]
         public ICollection<Product>? Products { get; set; }
     }
 }

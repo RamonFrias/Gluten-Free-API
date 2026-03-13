@@ -121,3 +121,4 @@ C:\Users\ramon\OneDrive\Desktop\.NET Course\My personal projects\GlutenFreeApi\G
 C:\Users\ramon\OneDrive\Desktop\.NET Course\My personal projects\GlutenFreeApi\GlutenFreeApi\obj\Debug\net10.0\GlutenFreeApi.genruntimeconfig.cache
 C:\Users\ramon\OneDrive\Desktop\.NET Course\My personal projects\GlutenFreeApi\GlutenFreeApi\obj\Debug\net10.0\ref\GlutenFreeApi.dll
 C:\Users\ramon\OneDrive\Desktop\.NET Course\My personal projects\GlutenFreeApi\GlutenFreeApi\obj\Debug\net10.0\GlutenFreeApi.sourcelink.json
+C:\Users\ramon\OneDrive\Desktop\.NET Course\My personal projects\GlutenFreeApi\GlutenFreeApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
